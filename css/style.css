@@ -208,11 +208,12 @@ main .jumbo{
 .plans-container{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .plan{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
 
     font-size: 0.8em;
 
@@ -284,6 +285,28 @@ main .jumbo{
     margin-bottom: 30px;
 
     color: #ececee;
+}
+
+.plan-horizontal{
+    flex-grow: 1;
+
+    margin-top: 30px;
+}
+
+.horizontal-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.horizontal-left .plan-price{
+    margin-bottom: 40px;
+}
+
+.horizontal-right .btn-big{
+    padding: 10px 28px;
+
+    white-space: nowrap;
 }
 
 /* Check-list */
