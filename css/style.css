@@ -55,20 +55,38 @@ nav{
     font-size: 0.7em;
 }
 
-.nav-left, .nav-right{
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 20px
+}
+
+.nav-left ul, .nav-right ul{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
+
+    height: 100%;
 }
 
-.navbar .nav-link a{
+
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar li a{
     padding: 18px 0; 
     
     color: black;
 }
 
-.navbar .nav-link a:hover{
+.navbar li a:hover{
     border-bottom: 2px solid grey;
 }
 
@@ -85,7 +103,7 @@ main .jumbo{
 }
 
 .centered-jumbo{
-    width: 65%;
+    max-width: 65%;
     margin: auto;
 }
 
@@ -111,6 +129,7 @@ main .jumbo{
 .first-sec-left-inner{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
 
     padding-top: 55px;
@@ -120,9 +139,8 @@ main .jumbo{
 }
 
 .first-sec-left-inner .btn{
-    padding: 8px 0;
+    padding: 8px 10px;
 
-    width: 50%;
 }
 
 .img-container{
