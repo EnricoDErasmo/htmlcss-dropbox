@@ -8,6 +8,16 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+.centered{
+    width: 55%;
+
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+}
+
 a{
     text-decoration: none;
 
@@ -37,8 +47,8 @@ nav{
 
 .navbar{
     position: fixed;
-    top: 0;
     left: 0;
+    right: 0;
 
     display: flex;
     flex-direction: row;
@@ -51,6 +61,8 @@ nav{
     height: 50px;
 
     z-index: 1;
+
+    background-color: white;
 
     font-size: 0.7em;
 }
@@ -74,12 +86,6 @@ nav{
     height: 100%;
 }
 
-
-
-.navbar li{
-    list-style-type: none;
-}
-
 .navbar li a{
     padding: 18px 0; 
     
@@ -96,8 +102,7 @@ nav{
 /* Section 1 */
 
 main .jumbo{
-    min-height: 420px;
-    /* test */
+    margin-bottom: 100px;
 
     background-color: #b4d0e7;
 }
@@ -117,6 +122,9 @@ main .jumbo{
 .first-sec-container{
     display: flex;
     flex-direction: row;
+
+    margin-top: 40px;
+
 }
 
 .first-sec-left{
@@ -132,25 +140,22 @@ main .jumbo{
     align-items: flex-start;
     gap: 20px;
 
-    padding-top: 55px;
-
     font-size: 0.8em;
     font-weight: 400;
 }
 
 .first-sec-left-inner .btn{
     padding: 8px 10px;
-
 }
 
 .img-container{
     position: relative;
-    top: 55px;
-    height: 380px;
 }
 
 .img-container img{
-    height: 100%;
+    position: absolute;
+
+    height: 120%;
 }
 
 #down-arrow{
@@ -159,6 +164,160 @@ main .jumbo{
 
     font-size: 2.4em;
 }
+/* /Section 1 */
+
+/* Section 2 */
+/* Titolo e checkbox */
+.second-sec-container #second-title{
+    font-size: 2em;
+
+    margin-bottom: 40px;
+}
+.check-box{
+    margin-bottom: 30px;
+}
+
+.check-box ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.check-box ul li .check-choise{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check-btn{
+    width: 12px;
+    height: 12px;
+
+    margin-right: 4px;
+
+    border-radius: 50%;
+    border: 2px solid #d3d3d5;
+}
+
+.check-btn.primary{
+    border: 4px solid #0061ff;
+}
+/* /Titolo e checkbox */
+
+/* Business plans */
+.plans-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.plan{
+    width: calc(100% / 3);
+
+    font-size: 0.8em;
+
+    border: 2px solid #ececee;
+}
+
+.plan-table{
+    margin-bottom: 24px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.plan-type{
+    padding: 8px 0;
+    border-bottom: 2px solid #ececee;
+    text-align: center;
+}
+
+.plan-inner{
+    display: flex;
+    flex-direction: column;
+
+    padding: 22px;
+}
+
+.plan-inner .plan-title{
+    margin-bottom: 16px;
+}
+
+.plan-inner .plan-price{
+    margin-bottom: 10px;
+}
+
+.plan-inner .pay-time{
+    margin-bottom: 24px;
+
+    color: grey;
+}
+
+.plan-table .row{
+    margin-bottom: 12px;
+}
+
+.plan-table .row .icon{
+    padding-right: 8px;
+}
+
+.btn-big{
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.buy-link{
+    margin-bottom: 30px;
+}
+
+.buy-link a{
+    text-decoration: underline;
+
+    color: blue;
+}
+
+.short-rule{
+    width: 20%;
+
+    margin-bottom: 30px;
+
+    color: #ececee;
+}
+
+/* Check-list */
+
+.check-list .row{
+    margin-bottom: 12px;
+}
+
+.check-list .row .icon{
+    padding-right: 8px;
+}
+
+.check-list h3{
+    margin-bottom: 14px;
+}
+
+
+.fa-check{
+    color: #3c72ff;
+
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
