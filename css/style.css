@@ -418,6 +418,29 @@ main .jumbo{
 .card-text{
     font-size: 0.8em;
 }
+/* /Sezione 4 */
+
+/* Sezione 5 */
+
+.fifth-sec-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    margin-bottom: 100px;
+}
+
+#third-sub-title{
+    font-size: 1.4em;
+}
+
+#fifth-sec-link a{
+    text-decoration: underline;
+
+    color: blue;
+}
+
+/* /Sezione 5 */
 
 
 
