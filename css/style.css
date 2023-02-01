@@ -443,6 +443,147 @@ main .jumbo{
 /* /Sezione 5 */
 
 
+/* Sezione 6 */
+
+.squares-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.squares{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.squares.center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 20px;
+
+    overflow: hidden;
+
+    background-color: #f5f5f5;
+}
+
+.squares.center .line-center{
+    width: 20%;
+
+    color: lightgray;
+}
+
+.squares.center .img-container-center{
+    width: 50%;
+}
+
+.squares.center .img-container-center img{
+    width: 100%;
+}
+
+.squares.center .text-container-center{
+    font-size: 0.8em;
+}
+
+
+
+.square{
+    width: calc((100vw / 3) /2);
+    height: calc((100vw / 3) /2);
+}
+
+.square img{
+    width: 100%;
+    height: 100%;
+
+    padding: 60px;
+
+    filter: invert(1);
+}
+
+.square-one{
+    background-color: #a2d39b;
+}
+
+.square-two{
+    background-color: #61082b;
+}
+
+.square-three{
+    background-color: #0093ce;
+}
+
+.square-three img{
+    padding-top: 115px ;
+    padding-bottom: 115px;
+}
+
+.square-four{
+    background-color: #ff1c1c;
+}
+
+.square-five{
+    background-color: #d5001f;
+}
+
+.square-six{
+    background-color: #b4d0e7;
+}
+
+.square-seven{
+    background-color: #0d2481;
+}
+
+.square-eight{
+    background-color: #ffd830;
+}
+
+.rectangle-bottom{
+    height: calc((100vw / 3) / 2);
+
+    margin-bottom: 130px;
+
+    background-color: #b4d0e7;
+}
+
+.rectangle-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-top: 80px;
+
+    height: calc((100vw / 3) / 2);
+}
+
+.rectangle-inner .rectangle-text{
+    font-size: 1.5em;
+
+    color: #60062a;
+}
+
+.rectangle-inner .rectangle-btn button{
+    padding: 8px 50px;
+
+    border: none;
+
+    cursor: pointer;
+
+    background-color: white;
+}
+
+/* /Sezione 5 */
+
+
+
+
+
+
+
 
 
 
