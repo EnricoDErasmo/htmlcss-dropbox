@@ -545,7 +545,7 @@ main .jumbo{
 .rectangle-bottom{
     height: calc((100vw / 3) / 2);
 
-    margin-bottom: 130px;
+    margin-bottom: 120px;
 
     background-color: #b4d0e7;
 }
@@ -577,6 +577,54 @@ main .jumbo{
 }
 
 /* /Sezione 5 */
+
+/* Sezione 6 */
+
+.faq-title{
+    margin-bottom: 40px;
+}
+
+.faq-container{
+    margin-bottom: 130px;
+
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid grey;
+}
+
+.faq-title{
+    font-size: 1.5em;
+}
+
+.faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 30px 0;
+
+    cursor: pointer;
+}
+
+.faq .faq-text{
+    font-size: 0.8em;
+}
+
+.faq-icon{
+    font-size: 0.8em;
+}
+
+.faq-answer{
+    display: none;
+
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.faq:active + .faq-answer{
+    display: block;
+}
+
+/* /Sezione 6 */
 
 
 
